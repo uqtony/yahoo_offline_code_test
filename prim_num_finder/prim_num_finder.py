@@ -22,7 +22,7 @@ def find_in_predefine_prime_number(max_value):
 
 	while idx >= 0:
 		if prime[idx] <= max_value:
-			return prime[:idx];
+			return prime[:idx+1];
 		idx -= 1;	
 
 	return None;
